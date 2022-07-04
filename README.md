@@ -1,8 +1,11 @@
 ## Temperature-meter for apartment
 
 Yuusuf Dahlstrand - yd222ce
+
 Tillämpad Internet of Things, Introduktionskurs, 7.5hp Sommar 2022
+
 Examinator Fredrik Ahlgren
+
 Linnaeus University
 
 
@@ -21,12 +24,15 @@ Arduino Nano RP2040 Connect (with headers)
 The Arduino board has WiFi support and makes it possible to gather the data from the sensor as well as sending the data to a cloud in order to visualize it.
 
 Apple iPhone 5W Power Supply Adapter & USB-microUSB cable 
+
 This will supply power and the USB to microUSB cable will also be used for setting the board up.
 
 Breadboard & Jumper wires
+
 This makes connecting the temperature sensor to the board a lot easier and without soldering. Also makes it easier to see how the board and sensor is connected.
 
 Temperature sensor MCP9700
+
 This temperature sensor has an accuracy of +- 4 degrees Celsius and uses 2.3-5.5V.
 More information about the sensor can be found at https://www.microchip.com/en-us/product/MCP9700#.
 Computer-side setup
@@ -49,7 +55,7 @@ I used Datacake to save and visualize the data gathered. I chose Datacake becaus
 
 #### Code used
 
-See main.py, config.py, boot.py
+See main.py, config.py, mqtt.py & boot.py. Though boot.py is empty since I do the WiFi connection in main.
 
 #### Data transmitted
 
