@@ -37,6 +37,8 @@ For the setup I used OpenMV to flash (install latest firmware of MicroPython) on
 
 The assembly was pretty straight forward with the breadboard and jumper wires. I only installed a temperature meter and the circuit diagram can be found in the image below:
 
+![Assembly](AD07BA63-A2A5-48FC-B48A-01A0EF932D5E.jpeg)
+
 Picture of my own assembly:
 
 ![My Setup](2422DD5F-AAEE-4BEE-A9C5-DD5712B41639.jpeg)
@@ -57,6 +59,7 @@ The board will read the temperature with a 500ms interval between readings. The 
 
 I use a real time value meter and a linear graph to visualize the data in Datacake.
 
+![Datacake](40CB9DBE-61C8-44BD-B36D-8917BEB0A98C.jpeg)
 
 
 #### Conclusion
