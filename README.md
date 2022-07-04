@@ -38,6 +38,9 @@ For the setup I used OpenMV to flash (install latest firmware of MicroPython) on
 The assembly was pretty straight forward with the breadboard and jumper wires. I only installed a temperature meter and the circuit diagram can be found in the image below:
 
 Picture of my own assembly:
+
+![My Setup](2422DD5F-AAEE-4BEE-A9C5-DD5712B41639.jpeg)
+
 Data Visualization Platform
 
 I used Datacake to save and visualize the data gathered. I chose Datacake because I have heard from a TA that a lot of companies use it for work and because of this it seemed relevant to me as I would like to simulate a real use case. Datacake was very easy to set up with a user-friendly backend interface for the dashboard. I put a live value as well as a diagram on my dashboard. Datacake gives full freedom to customize the dashboard and because of this I would definitely recommend it.
