@@ -20,7 +20,7 @@ This project aims to showcase how to build a temperature-meter, which in my case
 
 #### Materials
 
-Arduino Nano RP2040 Connect (with headers)
+Arduino Nano RP2040 Connect (with headers) 
 The Arduino board has WiFi support and makes it possible to gather the data from the sensor as well as sending the data to a cloud in order to visualize it.
 
 Apple iPhone 5W Power Supply Adapter & USB-microUSB cable 
@@ -36,6 +36,17 @@ Temperature sensor MCP9700
 This temperature sensor has an accuracy of +- 4 degrees Celsius and uses 2.3-5.5V.
 More information about the sensor can be found at https://www.microchip.com/en-us/product/MCP9700#.
 Computer-side setup
+
+
+Prices were:
+
+Arduino Board: 240kr
+
+USB-microUSB cable: 32kr
+
+Sensorskit with breadboard and wires: 104kr
+
+
 
 For the setup I used OpenMV to flash (install latest firmware of MicroPython) on the arduino board and to code it I used the Thonny IDE. OpenMV was used because I heard some people having trouble finding the device with Thonny. A Datacake account was made in order to visualize the data.
 
