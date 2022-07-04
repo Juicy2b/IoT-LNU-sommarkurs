@@ -55,11 +55,11 @@ I used Datacake to save and visualize the data gathered. I chose Datacake becaus
 
 #### Code used
 
-See main.py, config.py, mqtt.py & boot.py. Though boot.py is empty since I do the WiFi connection in main.
+See main.py (https://github.com/Juicy2b/IoT-LNU-sommarkurs/blob/1e3b6b09071521954f1618dd5e268ab72ce79941/main.py), config.py, mqtt.py (https://github.com/Juicy2b/IoT-LNU-sommarkurs/blob/1e3b6b09071521954f1618dd5e268ab72ce79941/mqtt.py) & boot.py. Though boot.py is empty since I do the WiFi connection in main.
 
 #### Data transmitted
 
-The board will read the temperature with a 500ms interval between readings. The readings are saved in an array of size 10 and when the array is full an average is calculated and sent to Datacake. The reason for the short intervals is that I want my graph to be as accurate as possible. I used the MQTT protocol to send the data to Datacake.
+The board will read the temperature with a 500ms interval between readings. The readings are saved in an array of size 10 and when the array is full an average is calculated and sent to Datacake. The reason for the short intervals is that I want my graph to be as accurate as possible. I use WiFi with mqtt to send the data to Datacake.
 
 #### Data presented
 
