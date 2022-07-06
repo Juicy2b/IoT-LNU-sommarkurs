@@ -50,6 +50,8 @@ Sensorskit with breadboard and wires: 104kr
 
 For the setup I used OpenMV to flash (install latest firmware of MicroPython) on the arduino board and to code it I used the Thonny IDE. OpenMV was used because I heard some people having trouble finding the device with Thonny. A Datacake account was made in order to visualize the data.
 
+Regarding time, I spent about 3 hours trying to understand how it works and getting everything together. It would be possible to follow tutorials and put it together very fast but understandong how it works and trying things out is a lot more fun and feels like a better way of learning. I want to be able to keep building different devices in the future and I definetly feel like I know what to do after this course. The TA's have been super helpful with a lot of knowledge within the field.
+
 #### Assembly
 
 The assembly was pretty straight forward with the breadboard and jumper wires. I only installed a temperature meter and the circuit diagram can be found in the image below:
